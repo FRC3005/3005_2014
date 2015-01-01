@@ -1,0 +1,3 @@
+#move forward to sweet spot then shoot
+RESET_ENCODER
+COAST_DISTANCE 32

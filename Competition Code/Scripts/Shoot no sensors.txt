@@ -1,0 +1,4 @@
+#move forward to sweet spot then shoot
+MOVE_TIME .5 .5 3000
+DELAY 5000
+SHOOT

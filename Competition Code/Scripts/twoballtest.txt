@@ -1,0 +1,32 @@
+#two ball auton
+#intake ball
+EXTEND
+INWARD
+DELAY 1400
+STILL
+
+#move to sweet spot
+RESET_ENCODER
+COAST_DISTANCE 32
+
+#drop second ball
+OUTWARD
+DELAY 550
+STILL
+
+#shoot first ball
+CONTAIN
+DELAY 1600
+SHOOT
+
+#pickup second ball
+INWARD
+EXTEND
+DELAY 2000
+CONTAIN
+DELAY 700
+STILL
+
+# shoot second ball
+DELAY 800
+SHOOT
